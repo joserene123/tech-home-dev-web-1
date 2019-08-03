@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body>
+
+    <h1>Formulario</h1>
+
+    <!--www.google.com-->
+    <!-- method => post, get-->
+    <form action="" method="POST">
+        <!--input de tipo texto (caja de texto)-->
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="Ingrese su nombre">
+
+        <br>
+
+        <!--input tipo checkbox-->
+        <label for="genero">femenino</label>
+        <input type="checkbox" name="" id="genero">
+        <label for="genero">Masculino</label>
+        <input type="checkbox" name="" id="genero">
+        
+        <br>
+        <!-- input tipo radiobutton-->
+        <label for="genero">femenino</label>
+        <input type="radio" name="" id="genero" checked>
+        <label for="genero">Masculino</label>
+        <input type="radio" name="" id="genero">
+        <br>
+        <label for="fecha">seleccione su fecha de nacimiento</label>
+        <input type="date" id="fecha">
+
+        <br>
+        <label for="mes">selecione el mes</label>
+        <input type="month" id="mes">
+        <br>
+        <label for="correo">correo electronico</label>
+        <input type="email" id="correo" placeholder="ingrese su correo electronico" required>
+
+        <br>
+        <label for="foto">seleccione su foto</label>
+        <input type="file" id="foto" accept="image/*">
+
+        <br>
+        <label for="video">seleccione un video</label>
+        <input type="file" id="video" accept="video/*">
+
+        
+        <br>
+        <label for="audio">seleccione un audio</label>
+        <input type="file" id="audio" accept="audio/*">
+
+        <br>
+        <label for="cantidad">seleccione la cantidad</label>
+        <input type="number" id="cantidad">
+
+        <br>
+        <label for="color">seleccione un color</label>
+        <input type="color" id="color">
+
+        <br>
+        <label for="hora">ingrese un hora</label>
+        <input type="time" id="hora">
+
+        <br>
+        <label for="rango">seleccione un rango</label>
+        <input type="range">
+
+        <br>
+        <label for="contraseña">Ingrese su contraseña</label>
+        <input type="password" placeholder="Ingrese su contraseña" required minlength="6" maxlength="10">
+        
+        <br>
+        <input type="submit" value="enviar">
+
+
+
+
+    </form>
+    
+</body>
+</html>
